@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: small;
+    color: blue;
+    width: 90%;
+    margin: center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    background-color: -webkit-radial-gradient(rgb(237, 131, 22), rgb(232, 108, 3));
+    background-color: radial-gradient(rgb(237, 131, 22), rgb(232, 108, 3));
+    /*background color se fait écraser par background photo*/
+    background-image: url("https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F2RNK1P0BYVrSCZEy_Sd1Ew%252F3417757448_4a6bdf36ce_o.jpg&width=1200&quality=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background position : bottom 0 right 0*/
+
+}
+
+h3 {
+
+    p {
+        font-style: italic;
+
+    }
+}
+
+blockquote {
+    font-size: 160%;
+    background-color: grey;
+    border-left: 3px solid red;
+    padding: 30px 80px 80px 80px font-style: italic;
+
+}
+
+.villager {
+    font-size: 160;
+    border-left: 3px solid red;
+
+
+}
+
+/* LINKS */
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:link {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: blueviolet;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
